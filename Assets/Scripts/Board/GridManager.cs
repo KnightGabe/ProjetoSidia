@@ -18,24 +18,32 @@ public class GridManager : MonoBehaviour
     private void Awake()
     {
         instance = this;
+<<<<<<< Updated upstream
     }
 
     private void Start()
     {
         CreateGrid(16, 16);
+=======
+>>>>>>> Stashed changes
     }
 
-    public void CreateGrid(int xLength, int yLength)
+    private void Start()
     {
-        myGrid.grid = new Tile[xLength, yLength];
-        for (int i = 0; i < xLength; i++)
+        CreateGrid();
+    }
+
+    public void CreateGrid()
+    {
+        myGrid.grid = new Tile[gridSize.x, gridSize.y];
+        for (int i = 0; i < gridSize.x; i++)
         {
-            for (int j = 0; j < yLength; j++)
+            for (int j = 0; j < gridSize.y; j++)
             {
                 myGrid.grid[i, j] = Instantiate(tilePrefab,
-                    new Vector3(myGrid.transform.position.x + (j - xLength / 2) * tileOffset.x,
+                    new Vector3(myGrid.transform.position.x + (j - gridSize.x / 2) * tileOffset.x,
                     myGrid.transform.position.y,
-                    myGrid.transform.position.z + (i - yLength / 2) * tileOffset.y),
+                    myGrid.transform.position.z + (i - gridSize.y / 2) * tileOffset.y),
                     tilePrefab.transform.rotation, myGrid.transform);
                 myGrid.grid[i, j].gridIndex = new Vector2Int(i, j);
             }

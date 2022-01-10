@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PaladinController
+  m_Controller: {fileID: 9100000, guid: 97b004e8f9b745d49949984b0f578469, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: c6f2e07bd99c07f46a2003671ba81f4a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 35a28ed7700375d45aebfb2e5875ed7e, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 1c57702d64afbc64d8fe28fa279d8ff1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7378f049d89ee4c45b56c6f0b820354d, type: 2}

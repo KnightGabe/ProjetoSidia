@@ -67,7 +67,39 @@
     <Compile Include="Assets\Scripts\Board\Grid.cs" />
     <Compile Include="Assets\Scripts\Board\GridManager.cs" />
     <Compile Include="Assets\Scripts\Board\Tile.cs" />
+<<<<<<< Updated upstream
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+=======
+    <Compile Include="Assets\Scripts\Camera and UI\BattleUI.cs" />
+    <Compile Include="Assets\Scripts\Camera and UI\MainUI.cs" />
+    <Compile Include="Assets\Scripts\Camera and UI\PlayerCamera.cs" />
+    <Compile Include="Assets\Scripts\Camera and UI\TitleMenu.cs" />
+    <Compile Include="Assets\Scripts\Game\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Game\PickupManager.cs" />
+    <Compile Include="Assets\Scripts\General\AnimationEvents.cs" />
+    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\Particles\Sword slash VFX\Shaders\DissolveNoise.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Particles\Sword slash VFX\Shaders\Distortion.shader" />
+    <None Include="Assets\Particles\Sword slash VFX\Shaders\Blend_CenterGlow.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Particles\Sword slash VFX\Shaders\Add_CenterGlow.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\Particles\Sword slash VFX\Shaders\SwordSlash.shader" />
+>>>>>>> Stashed changes
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
       <HintPath>C:/Users/gmaia/OneDrive/Documents/Projeto Sidia/ProjetoSidia/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
     </Reference>
@@ -80,8 +112,17 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:/Users/gmaia/OneDrive/Documents/Projeto Sidia/ProjetoSidia/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>C:/Users/gmaia/OneDrive/Documents/Projeto Sidia/ProjetoSidia/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
       <HintPath>C:/Users/gmaia/OneDrive/Documents/Projeto Sidia/ProjetoSidia/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>C:/Users/gmaia/OneDrive/Documents/Projeto Sidia/ProjetoSidia/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>C:/Users/gmaia/OneDrive/Documents/Projeto Sidia/ProjetoSidia/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
       <HintPath>C:/Users/gmaia/OneDrive/Documents/Projeto Sidia/ProjetoSidia/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
@@ -110,6 +151,9 @@
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
       <HintPath>C:/Users/gmaia/OneDrive/Documents/Projeto Sidia/ProjetoSidia/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>C:/Users/gmaia/OneDrive/Documents/Projeto Sidia/ProjetoSidia/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
       <HintPath>C:/Users/gmaia/OneDrive/Documents/Projeto Sidia/ProjetoSidia/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
     </Reference>
@@ -121,18 +165,6 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/gmaia/OneDrive/Documents/Projeto Sidia/ProjetoSidia/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder">
-      <HintPath>C:/Users/gmaia/OneDrive/Documents/Projeto Sidia/ProjetoSidia/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>C:/Users/gmaia/OneDrive/Documents/Projeto Sidia/ProjetoSidia/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>C:/Users/gmaia/OneDrive/Documents/Projeto Sidia/ProjetoSidia/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>C:/Users/gmaia/OneDrive/Documents/Projeto Sidia/ProjetoSidia/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
